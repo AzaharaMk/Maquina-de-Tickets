@@ -75,4 +75,9 @@ public class MaquinaTicket
         // Clear the balance.
         balance = 0;
     }
+    
+    public int obtenerTotal()
+    {
+        return total;
+    }
 }
