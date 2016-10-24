@@ -19,10 +19,18 @@ public class EstacionTren
   }
   
   public void mostrarTotalMoneda()
-    {
+ {
         totalMoneda = maquina1.obtenerTotal();
         totalMoneda = totalMoneda + maquina2.obtenerTotal();
     System.out.println(totalMoneda);
-    }
 }
 
+public void ImprimirTicket()
+{
+    maquina1.insertarDinero(300);
+    maquina2.insertarDinero(200);
+    
+    maquina1.imprimirTicket();
+    maquina2.imprimirTicket();
+}
+}

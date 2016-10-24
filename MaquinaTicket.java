@@ -80,4 +80,9 @@ public class MaquinaTicket
     {
         return total;
     }
+    
+    public void fijarPrecio(int cantidad)
+    {
+        precio = precio + cantidad;
+    }
 }
