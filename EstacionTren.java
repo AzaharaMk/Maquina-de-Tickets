@@ -13,8 +13,8 @@ public class EstacionTren
 
     public EstacionTren()
     {
-        maquina1 = new MaquinaTicket(300);
-        maquina2 = new MaquinaTicket(200);
+        maquina1 = new MaquinaTicket();
+        maquina2 = new MaquinaTicket();
         totalMoneda = 0;
   }
   
