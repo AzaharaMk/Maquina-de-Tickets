@@ -75,6 +75,11 @@ public class MaquinaTicket
         // Clear the balance.
         balance = 0;
     }
+   
+    public void aviso()
+    {
+        System.out.println("Por favor, insertar la cantidad correcta de dinero.");
+    }
     
     public int obtenerTotal()
     {
@@ -83,6 +88,6 @@ public class MaquinaTicket
     
     public void fijarPrecio(int cantidad)
     {
-        precio = precio + cantidad;
+        precio =cantidad;
     }
 }
