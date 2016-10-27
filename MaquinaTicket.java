@@ -32,6 +32,8 @@ public class MaquinaTicket
     
     public MaquinaTicket(int coste)
     {
+        balance = 0;
+        total = 0;
         precio = coste;
     }
 
@@ -99,5 +101,10 @@ public class MaquinaTicket
     public void verPrecio()
     {
         System.out.println("El precio del ticket es " + precio + " euros");
+    }
+    
+    public void vaciarMaquina()
+    {
+        
     }
 }
