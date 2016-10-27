@@ -29,6 +29,11 @@ public class MaquinaTicket
         balance = 0;
         total = 0;
     }
+    
+    public MaquinaTicket(int coste)
+    {
+        precio = coste;
+    }
 
     /**
      * Return the price of a ticket.
